@@ -2,4 +2,16 @@ const add = (a, b) => {
   return a + b;
 };
 
-module.exports = add;
+const subs = (a, b) => {
+  return a - b;
+};
+
+const mul = (a, b) => {
+  return a * b;
+};
+
+const devide = (a, b) => {
+  return a / b;
+};
+
+module.exports = { add, subs, mul, devide };
