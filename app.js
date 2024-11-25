@@ -1,3 +1,3 @@
-// console.log(global);
-// global.console.log("subscribe");
-console.log(module);
+const add = require("./math");
+
+console.log(add(5, 10));
